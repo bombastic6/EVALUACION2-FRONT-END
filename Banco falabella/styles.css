@@ -1,0 +1,275 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.mi-cuenta-btn {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    top: 17%;
+    right: 80px;
+    transform: translateY(-50%);
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.mi-cuenta-btn:hover {
+    background-color: rgb(64, 136, 82);
+    color: rgb(173, 201, 173);
+}
+
+.simulator-container {
+    background-color: rgba(128, 128, 128, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.simulator-form {
+    display: flex;
+}
+
+.simulator-form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    flex: 1;
+}
+
+.simulator-form .simulate-button {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.simulator-form .simulate-button:hover {
+    background-color: rgb(64, 136, 82);
+}
+
+.simulator-container p {
+    color: white;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo img {
+    width: 150px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 4;
+    margin: 0;
+    display: flex;
+  justify-content: flex-start;
+}
+
+nav ul li {
+    margin-right: 50px;
+}
+
+nav ul li a {
+    font-size: 12px;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color: black;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: blue;
+}
+
+.slider_contenedor {
+    position: relative;
+    overflow: hidden;
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.prev-btn, .next-btn {
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: transparent;
+    position: absolute;
+    top: 50%;
+    position: absolute;
+    transform: translateY(-50%);
+    border: none;
+    padding: 10px 20px;
+}
+
+.prev-btn {
+    left: 10px;
+}
+
+.next-btn {
+    right: 10px;
+}
+
+.prev-btn img, .next-btn img {
+    width: 30px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    opacity: 0.7;
+}
+
+.img123 {
+    display: flex;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    color: rgb(49, 161, 77);
+}
+
+.option {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.title-green {
+    color: green;
+}
+
+.description-black {
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+
+.fila {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.imagen {
+    width: 40%;
+}
+
+.contenido {
+    width: 55%;
+}
+
+.contenido h2 {
+    margin-top: 0;
+}
+
+.boton {
+    background-color: green;
+    color: white;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.finalpage {
+    display: flex;
+    min-height: 100vh;
+}
+
+.content {
+    flex: 1;
+    background-color: white;
+    padding: 20px;
+}
+
+.sidebar {
+    width: 1300px;
+    background-color: #444;
+    color: white;
+    padding: 40px;
+    font-family: Arial, sans-serif;
+}
+
+.titulofinal {
+    font-weight: bold;
+    background-color: #333;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.enlaces {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+}
+
+.links a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+.contact {
+    margin-top: 20px;
+}
+
+.contact-button {
+    background-color: #faf2f2b0;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.contact-button:hover {
+    background-color: #99caeb;
+}
+
+.contact-icon {
+    margin-right: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin: 20px 0;
+}
